@@ -1,6 +1,6 @@
 workflows:
   build:
-    name: Mac mini M2
-    instance_type: mac_mini_m2
+    name: Mac mini M4
+    instance_type: mac_mini_m4
     scripts:
       - sysctl -n machdep.cpu.brand_string
