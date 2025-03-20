@@ -1,6 +1,9 @@
 workflows:
   build:
     name: Mac mini M4
-    instance_type: mac_mini_m4
+    instance_type: mac_mini_m2
+    triggering:
+      events:
+        - push
     scripts:
       - sysctl -n machdep.cpu.brand_string
