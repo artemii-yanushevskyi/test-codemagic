@@ -1,8 +1,9 @@
 workflows:
   environment:
-    groups:
-      - alpha
     name: Environment
+    environment:
+      groups:
+        - alpha
     scripts:
       - echo $INDIA
       - echo $JULIET
