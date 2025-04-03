@@ -1,9 +1,8 @@
 workflows:
   environment:
-    environment:
-      vars:
-        XCODE_WORKSPACE: $CM_BUILD_DIR/foobar
-    name: Empty
+    name: Environment
     scripts:
-      - echo $XCODE_WORKSPACE
-
+      - echo $INDIA
+      - echo $JULIET
+      - echo $KILO
+      - echo $LIMA
