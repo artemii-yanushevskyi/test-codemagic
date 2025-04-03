@@ -1,5 +1,7 @@
 workflows:
   environment:
+    groups:
+      - alpha
     name: Environment
     scripts:
       - echo $INDIA
