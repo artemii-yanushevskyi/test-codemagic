@@ -2,9 +2,7 @@ workflows:
   artifact:
     name: Produce artifact
     scripts:
-      - echo "Test" > artifact.txt
+      - echo ""
     artifacts:
-      - /Users/builder/clone/artifact.txt
-    publishing:
-      tester_groups:
-        - beta_testers
+      - /Users/builder/clone/**/*.apk
+      - /Users/builder/clone/**/*.app
