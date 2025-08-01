@@ -1,5 +1,5 @@
 workflows:
-  push:
+  push-mac-mini-m4:
     name: Mac mini M4
     instance_type: mac_mini_m4
     triggering:
